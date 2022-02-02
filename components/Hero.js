@@ -25,7 +25,7 @@ const Hero = () => {
   const [count, setCount] = useState(1);
   const [maxMintAmount, setMaxMintAmount] = useState(10);
   const [totalSupply, setTotalSupply] = useState(0);
-  const [nftPrice, setNftPrice] = useState("0.2");
+  const [nftPrice, setNftPrice] = useState("0.02");
   const [noFreeNft, setNoFreeNft] = useState(0);
   const [isSaleActive, setIsSaleActive] = useState(false);
   const [isWhiteList, setIsWhiteList] = useState(false);
